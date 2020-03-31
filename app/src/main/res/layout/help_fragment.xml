@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Help.Help">
+
+    <TextView
+        android:id="@+id/thanks_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:text="HELPLINE NUMBERS [BY STATE]\n
+HTTPS://WWW.MOHFW.GOV.IN/CORONVAVIRUSHELPLINENUMBER.PDF
+\n \n \n \n
+MINISTRY OF HEALTH AND FAMILY WELFARE, GOV. OF INDIA\n
+HTTPS://WWW.MOHFW.GOV.IN/  \n \n \n \n
+WHO : COVID-19 HOME PAGE \n
+HTTPS://WWW.WHO.INT/EMERGENCIES/DISEASES/NOVEL-CORONAVIRUS-2019
+\n \n\n \nCDC \n
+HTTPS://WWW.CDC.GOV/CORONAVIRUS/2019-NCOV/FAQ.HTML
+\n \n\n \n
+COVID-19 GLOBAL TRACKER\n
+HTTPS://CORONAVIRUS.THEBASELAB.COM/
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
